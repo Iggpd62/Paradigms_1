@@ -5,3 +5,6 @@ def sort_list_imperative(numbers):
             if numbers[i] < numbers[j]:
                 numbers[i], numbers[j] = numbers[j], numbers[i]
     return numbers
+numbers = [4, 6, 2, 9, 7]
+sorted_numbers = sort_list_imperative(numbers)
+print(sorted_numbers)  # Выводит: [9, 7, 6, 4, 2]
