@@ -1,5 +1,4 @@
 def sort_list_imperative(numbers):
-    # Императивный код здесь
     for i in range(len(numbers)):
         for j in range(i+1, len(numbers)):
             if numbers[i] < numbers[j]:
